@@ -1,122 +1,24 @@
-/* Estilo global */
-body {
-    font-family: 'Arial', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+*{
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
 }
 
-/* Estilo do cabeçalho */
-header {
-    background-color: #0073e6;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+:root{
+    --fonte-principal: "Shrikhand", serif;
+    --fonte-secundario: "Exo 2", sans-serif;
+    --Cinza-Cinza: #cad2c5ff;
+    --Azul-Cambridge: #84a98cff;
+    --Verde-de-Hooker: #52796fff;
+    --Cinza-Ardósia-Escuro: rgb(38, 101, 108);
+    --Carvão: #2f3e46ff;
 }
 
-.header-container h1 {
-    margin: 0;
-    font-size: 2.5em;
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--Cinza-Ardósia-Escuro);
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0 0 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Estilo das seções principais */
-.section-main {
-    background-color: #0073e6;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.section-main h2 {
-    font-size: 2em;
-}
-
-.intro p {
-    font-size: 1.2em;
-    margin-top: 10px;
-}
-
-/* Estilo das seções de conteúdo */
-.section-content {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-h2 {
-    color: #0073e6;
-    font-size: 1.8em;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-p, ul {
-    font-size: 1.1em;
-    margin-bottom: 20px;
-}
-
-/* Estilo da imagem */
-.profile-pic {
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilo da lista de habilidades */
-.skills-list {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0;
-}
-
-.skills-list li {
-    background-color: #0073e6;
-    color: white;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.skills-list li:hover {
-    background-color: #005bb5;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .skills-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .skills-list li {
-        margin: 10px 0;
-    }
+h1,h3{
+    font-family: var();
 }
