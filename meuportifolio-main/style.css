@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --fonte-principal: "Playfair Display", serif;
+    --fonte-secundaria: "Bebas Neue", sans-serif;
+    --azul-escuro: #003366;
+    --azul-vibrante: #0099cc;
+    --azul-claro: #66ccff;
+    --branco: #ffffff;
+    --amarelo-vibrante: #ffcc00;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--azul-claro);
+}
+
+.img-thumbnail {
+    border: 2px solid var(--amarelo-vibrante);
+}
+
+h1, h3 {
+    font-family: var(--fonte-secundaria);
+}
+
+.card {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--amarelo-vibrante);
+}
